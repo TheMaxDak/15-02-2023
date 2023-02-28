@@ -64,3 +64,14 @@ else print('В матрице нет четных элементов больш�
 print(max(max_matrix)) \
 if max_matrix \
 else print('В матрице нет четных элементов больше нуля')
+
+# Задание 11
+```
+
+def wtf(x,y,z):
+    if x == z or x ==y or z ==y:
+        return True
+    else:
+        return False
+        
+print(wtf(1,2,2))
