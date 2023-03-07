@@ -76,3 +76,62 @@ def wtf(x,y,z):
         return False
         
 print(wtf(1,2,2))
+```
+
+# Задание 14
+```
+
+def function():
+    list = []
+    str1 = input()
+    str2 = input()
+    list.append(str1 + str2)
+    print(list)
+function()
+```
+
+# Задание 15
+```
+
+def function():
+    a = {1:'peanut', 2:'butter', 3:'jelly', 4:'time'}
+    b = {5:'fish', 6:'chips'} 
+    x = a|b
+    print(x)
+function()
+```
+
+# Задание 16
+```
+
+def factorial(number):
+    if number == 1:
+        return number
+    else:
+        return number * factorial(number - 1)
+
+print(factorial(int(input('Введите число: '))))
+```
+# Задание 17
+```
+
+def function():
+    l = input()
+    for i in l:
+        print(i)
+function()
+```
+
+# Задание 18
+```
+
+def function():
+    a = []
+    n = int(input())
+    for i in range(n):
+        x = int(input())
+        a.append(x)
+    for z in a:
+        print(z)
+function()
+```
